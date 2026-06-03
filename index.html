@@ -458,7 +458,7 @@ a{text-decoration:none;color:inherit}
       <svg viewBox="0 0 24 24"><path d="M18 8A6 6 0 006 8c0 7-3 9-3 9h18s-3-2-3-9"/><path d="M13.73 21a2 2 0 01-3.46 0"/></svg>
       <span class="notif-badge-dot"></span>
     </button>
-    <div class="nav-avatar">👤</div>
+    <div class="nav-avatar" style="color:var(--teal)"><svg style="width:16px;height:16px;display:inline-block;vertical-align:middle;flex-shrink:0" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg></div>
   </div>
 </nav>
 
@@ -487,7 +487,7 @@ a{text-decoration:none;color:inherit}
   <!-- ALERT BANNER -->
   <div class="alert-banner">
     <div class="ab-dot"></div>
-    <div class="ab-text">🔴 SIAGA DARURAT — Karangasem: stok makanan habis dalam 6 jam · Demak: 650 jiwa terisolir butuh perahu karet</div>
+    <div class="ab-text">SIAGA DARURAT — Karangasem: stok makanan habis dalam 6 jam · Demak: 650 jiwa terisolir butuh perahu karet</div>
     <a class="ab-link" onclick="showPage('dashboard',null);setTimeout(()=>switchDash('overview'),50)">Lihat Status →</a>
   </div>
 
@@ -536,36 +536,36 @@ a{text-decoration:none;color:inherit}
         <div class="hero-card-stack">
           <div class="hero-main-card">
             <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:14px">
-              <div style="font-weight:700;font-size:13px;color:var(--text1)">🗺️ Status Bencana Aktif</div>
+              <div style="font-weight:700;font-size:13px;color:var(--text1)"><svg style="width:13px;height:13px;display:inline-block;vertical-align:middle;flex-shrink:0;margin-right:2px" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="1 6 1 22 8 18 16 22 23 18 23 2 16 6 8 2 1 6"/><line x1="8" y1="2" x2="8" y2="18"/><line x1="16" y1="6" x2="16" y2="22"/></svg> Status Bencana Aktif</div>
               <div class="badge badge-danger">5 Lokasi</div>
             </div>
             <div style="height:160px;background:linear-gradient(165deg,#D4E8E4,#C2DDD5);border-radius:10px;position:relative;overflow:hidden">
-              <div class="map-pin pin-danger" style="left:28%;top:38%"><div class="map-pin-label">🔴 Karangasem</div><div class="map-pin-dot" style="width:11px;height:11px"></div></div>
-              <div class="map-pin pin-warning" style="left:48%;top:28%"><div class="map-pin-label">🟡 Cianjur</div><div class="map-pin-dot" style="width:11px;height:11px"></div></div>
-              <div class="map-pin pin-ok" style="left:65%;top:44%"><div class="map-pin-label">🟢 Lombok</div><div class="map-pin-dot" style="width:11px;height:11px"></div></div>
+              <div class="map-pin pin-danger" style="left:28%;top:38%"><div class="map-pin-label">● Karangasem</div><div class="map-pin-dot" style="width:11px;height:11px"></div></div>
+              <div class="map-pin pin-warning" style="left:48%;top:28%"><div class="map-pin-label">● Cianjur</div><div class="map-pin-dot" style="width:11px;height:11px"></div></div>
+              <div class="map-pin pin-ok" style="left:65%;top:44%"><div class="map-pin-label">● Lombok</div><div class="map-pin-dot" style="width:11px;height:11px"></div></div>
             </div>
           </div>
           <div class="hero-mini-cards">
             <div class="hero-mini-card">
-              <div class="hmcard-ico teal">📦</div>
+              <div class="hmcard-ico teal"><svg style="width:16px;height:16px;display:inline-block;vertical-align:middle;flex-shrink:0" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/><polyline points="3.27 6.96 12 12.01 20.73 6.96"/><line x1="12" y1="22.08" x2="12" y2="12"/></svg></div>
               <div class="hmcard-label">Stok Gudang A</div>
               <div class="hmcard-val">18.450</div>
               <div class="hmcard-trend ok">✓ Aman</div>
             </div>
             <div class="hero-mini-card">
-              <div class="hmcard-ico coral">⚠️</div>
+              <div class="hmcard-ico coral"><svg style="width:16px;height:16px;display:inline-block;vertical-align:middle;flex-shrink:0" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"/><line x1="12" y1="9" x2="12" y2="13"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg></div>
               <div class="hmcard-label">Stok Kritis</div>
               <div class="hmcard-val">3</div>
               <div class="hmcard-trend up">↑ Perlu segera</div>
             </div>
             <div class="hero-mini-card">
-              <div class="hmcard-ico amber">🚛</div>
+              <div class="hmcard-ico amber"><svg style="width:16px;height:16px;display:inline-block;vertical-align:middle;flex-shrink:0" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="1" y="3" width="15" height="13"/><polygon points="16 8 20 8 23 11 23 16 16 16 16 8"/><circle cx="5.5" cy="18.5" r="2.5"/><circle cx="18.5" cy="18.5" r="2.5"/></svg></div>
               <div class="hmcard-label">Truck Aktif</div>
               <div class="hmcard-val">7</div>
               <div class="hmcard-trend ok">3 dalam perjalanan</div>
             </div>
             <div class="hero-mini-card">
-              <div class="hmcard-ico blue">🤝</div>
+              <div class="hmcard-ico blue"><svg style="width:16px;height:16px;display:inline-block;vertical-align:middle;flex-shrink:0" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.42 4.58a5.4 5.4 0 0 0-7.65 0l-.77.78-.77-.78a5.4 5.4 0 0 0-7.65 0C1.46 6.7 1.33 10.28 4 13l8 8 8-8c2.67-2.72 2.54-6.3.42-8.42z"/></svg></div>
               <div class="hmcard-label">Relawan</div>
               <div class="hmcard-val">342</div>
               <div class="hmcard-trend ok">+12 hari ini</div>
@@ -588,19 +588,19 @@ a{text-decoration:none;color:inherit}
         <div class="steps-grid" style="margin-top:0">
           <div class="step-card">
             <div class="step-num-bg">1</div>
-            <div class="step-icon-wrap si-coral">📋</div>
+            <div class="step-icon-wrap si-coral"><svg style="width:16px;height:16px;display:inline-block;vertical-align:middle;flex-shrink:0" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"/><rect x="8" y="2" width="8" height="4" rx="1" ry="1"/></svg></div>
             <h3>Laporan Kebutuhan</h3>
             <p>Relawan lapangan melaporkan kebutuhan korban secara real-time langsung dari lokasi bencana.</p>
           </div>
           <div class="step-card">
             <div class="step-num-bg">2</div>
-            <div class="step-icon-wrap si-amber">📦</div>
+            <div class="step-icon-wrap si-amber"><svg style="width:16px;height:16px;display:inline-block;vertical-align:middle;flex-shrink:0" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/><polyline points="3.27 6.96 12 12.01 20.73 6.96"/><line x1="12" y1="22.08" x2="12" y2="12"/></svg></div>
             <h3>Manajemen Inventaris</h3>
             <p>Stok logistik di semua gudang terpantau otomatis dengan alert ketersediaan kritis.</p>
           </div>
           <div class="step-card">
             <div class="step-num-bg">3</div>
-            <div class="step-icon-wrap si-teal">🚛</div>
+            <div class="step-icon-wrap si-teal"><svg style="width:16px;height:16px;display:inline-block;vertical-align:middle;flex-shrink:0" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="1" y="3" width="15" height="13"/><polygon points="16 8 20 8 23 11 23 16 16 16 16 8"/><circle cx="5.5" cy="18.5" r="2.5"/><circle cx="18.5" cy="18.5" r="2.5"/></svg></div>
             <h3>Distribusi Terverifikasi</h3>
             <p>Pengiriman bantuan dilacak GPS dengan konfirmasi penerimaan digital dari penyintas.</p>
           </div>
@@ -629,14 +629,14 @@ a{text-decoration:none;color:inherit}
             <line x1="45" y1="22" x2="39" y2="58" stroke="rgba(0,121,107,.3)" stroke-width=".5" stroke-dasharray="2,1.5"/>
           </svg>
           <div style="position:absolute;left:42%;top:17%;z-index:4">
-            <div class="map-hq-label">🏭 Gudang Pusat Jakarta</div>
+            <div class="map-hq-label"><svg style="width:13px;height:13px;display:inline-block;vertical-align:middle;flex-shrink:0;margin-right:2px" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg> Gudang Pusat Jakarta</div>
           </div>
-          <div class="map-pin pin-danger" style="left:28%;top:38%"><div class="map-pin-label">🔴 Karangasem, Bali</div><div class="map-pin-dot"></div></div>
-          <div class="map-pin pin-warning" style="left:48%;top:28%"><div class="map-pin-label">🟡 Cianjur, Jabar</div><div class="map-pin-dot"></div></div>
-          <div class="map-pin pin-warning" style="left:65%;top:43%"><div class="map-pin-label">🟡 Lereng Merapi</div><div class="map-pin-dot"></div></div>
-          <div class="map-pin pin-ok" style="left:39%;top:57%"><div class="map-pin-label">🟢 Lombok Timur</div><div class="map-pin-dot"></div></div>
-          <div class="map-vehicle" id="mv1" style="left:37%;top:32%"><div class="mv-label">🚛 HT-01</div><div class="mv-dot"></div></div>
-          <div class="map-vehicle" id="mv2" style="left:56%;top:35%"><div class="mv-label">🚛 HT-02</div><div class="mv-dot"></div></div>
+          <div class="map-pin pin-danger" style="left:28%;top:38%"><div class="map-pin-label">● Karangasem, Bali</div><div class="map-pin-dot"></div></div>
+          <div class="map-pin pin-warning" style="left:48%;top:28%"><div class="map-pin-label">● Cianjur, Jabar</div><div class="map-pin-dot"></div></div>
+          <div class="map-pin pin-warning" style="left:65%;top:43%"><div class="map-pin-label">● Lereng Merapi</div><div class="map-pin-dot"></div></div>
+          <div class="map-pin pin-ok" style="left:39%;top:57%"><div class="map-pin-label">● Lombok Timur</div><div class="map-pin-dot"></div></div>
+          <div class="map-vehicle" id="mv1" style="left:37%;top:32%"><div class="mv-label"><svg style="width:13px;height:13px;display:inline-block;vertical-align:middle;flex-shrink:0;margin-right:2px" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="1" y="3" width="15" height="13"/><polygon points="16 8 20 8 23 11 23 16 16 16 16 8"/><circle cx="5.5" cy="18.5" r="2.5"/><circle cx="18.5" cy="18.5" r="2.5"/></svg> HT-01</div><div class="mv-dot"></div></div>
+          <div class="map-vehicle" id="mv2" style="left:56%;top:35%"><div class="mv-label"><svg style="width:13px;height:13px;display:inline-block;vertical-align:middle;flex-shrink:0;margin-right:2px" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="1" y="3" width="15" height="13"/><polygon points="16 8 20 8 23 11 23 16 16 16 16 8"/><circle cx="5.5" cy="18.5" r="2.5"/><circle cx="18.5" cy="18.5" r="2.5"/></svg> HT-02</div><div class="mv-dot"></div></div>
           <div class="map-legend">
             <div class="leg-i"><div class="leg-dot" style="background:var(--danger)"></div>Darurat</div>
             <div class="leg-i"><div class="leg-dot" style="background:var(--amber)"></div>Siaga</div>
@@ -698,9 +698,9 @@ a{text-decoration:none;color:inherit}
         </div>
         <div class="footer-col">
           <h4>Kontak Darurat</h4>
-          <a>📞 119 (BNPB)</a>
-          <a>📞 021-500-454 (PMI)</a>
-          <a>✉ helptrack@bencana.go.id</a>
+          <a><svg style="width:13px;height:13px;display:inline-block;vertical-align:middle;flex-shrink:0;margin-right:2px" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.34 12a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.18 1h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 8a16 16 0 0 0 6 6l.27-.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg> 119 (BNPB)</a>
+          <a><svg style="width:13px;height:13px;display:inline-block;vertical-align:middle;flex-shrink:0;margin-right:2px" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.34 12a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.18 1h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 8a16 16 0 0 0 6 6l.27-.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg> 021-500-454 (PMI)</a>
+          <a><svg style="width:13px;height:13px;display:inline-block;vertical-align:middle;flex-shrink:0;margin-right:2px" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2"/><polyline points="22,6 12,13 2,6"/></svg> helptrack@bencana.go.id</a>
         </div>
       </div>
       <div class="footer-bottom">
@@ -725,12 +725,12 @@ a{text-decoration:none;color:inherit}
   <div style="max-width:1160px;margin:0 auto;padding:24px 32px">
     <div class="filter-bar">
       <button class="filter-chip on" onclick="filterCamps('all',this)">Semua</button>
-      <button class="filter-chip" onclick="filterCamps('darurat',this)" style="">🔴 Darurat</button>
-      <button class="filter-chip" onclick="filterCamps('siaga',this)">🟡 Siaga</button>
-      <button class="filter-chip" onclick="filterCamps('pemulihan',this)">🟢 Pemulihan</button>
-      <button class="filter-chip" onclick="filterCamps('makanan',this)">🍱 Pangan</button>
-      <button class="filter-chip" onclick="filterCamps('medis',this)">💊 Medis</button>
-      <button class="filter-chip" onclick="filterCamps('tempat',this)">🏠 Tempat</button>
+      <button class="filter-chip" onclick="filterCamps('darurat',this)" style=""><svg style="width:13px;height:13px;display:inline-block;vertical-align:middle;flex-shrink:0;margin-right:2px" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"/><line x1="12" y1="9" x2="12" y2="13"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg> Darurat</button>
+      <button class="filter-chip" onclick="filterCamps('siaga',this)"><svg style="width:13px;height:13px;display:inline-block;vertical-align:middle;flex-shrink:0;margin-right:2px" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"/><line x1="12" y1="9" x2="12" y2="13"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg> Siaga</button>
+      <button class="filter-chip" onclick="filterCamps('pemulihan',this)"><svg style="width:13px;height:13px;display:inline-block;vertical-align:middle;flex-shrink:0;margin-right:2px" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg> Pemulihan</button>
+      <button class="filter-chip" onclick="filterCamps('makanan',this)"><svg style="width:13px;height:13px;display:inline-block;vertical-align:middle;flex-shrink:0;margin-right:2px" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 2v7c0 1.1.9 2 2 2h4a2 2 0 0 0 2-2V2"/><path d="M7 2v20"/><path d="M21 15V2a5 5 0 0 0-5 5v6c0 1.1.9 2 2 2h3zm0 0v7"/></svg> Pangan</button>
+      <button class="filter-chip" onclick="filterCamps('medis',this)"><svg style="width:13px;height:13px;display:inline-block;vertical-align:middle;flex-shrink:0;margin-right:2px" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m10.5 20.5 10-10a4.95 4.95 0 1 0-7-7l-10 10a4.95 4.95 0 1 0 7 7z"/><line x1="8.5" y1="8.5" x2="15.5" y2="15.5"/></svg> Medis</button>
+      <button class="filter-chip" onclick="filterCamps('tempat',this)"><svg style="width:13px;height:13px;display:inline-block;vertical-align:middle;flex-shrink:0;margin-right:2px" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg> Tempat</button>
       <div class="search-field">
         <svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
         <input type="text" placeholder="Cari lokasi, jenis bantuan…" id="campSearch" oninput="filterCamps('search',null)">
@@ -765,21 +765,21 @@ a{text-decoration:none;color:inherit}
       </div>
       <nav class="sidebar-nav">
         <div class="nav-section-label">Operasional</div>
-        <div class="nav-item active" onclick="switchDash('overview',this)"><span class="nav-item-icon">📊</span>Overview</div>
-        <div class="nav-item" onclick="switchDash('map',this)"><span class="nav-item-icon">🗺️</span>Peta Bencana</div>
-        <div class="nav-item" onclick="switchDash('needs',this)"><span class="nav-item-icon">📋</span>Kebutuhan Aktif<span class="nav-item-badge">9</span></div>
-        <div class="nav-item" onclick="switchDash('logistics',this)"><span class="nav-item-icon">🚛</span>Pengiriman</div>
+        <div class="nav-item active" onclick="switchDash('overview',this)"><span class="nav-item-icon" style="display:flex;align-items:center;justify-content:center"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="20" x2="18" y2="10"/><line x1="12" y1="20" x2="12" y2="4"/><line x1="6" y1="20" x2="6" y2="14"/></svg></span>Overview</div>
+        <div class="nav-item" onclick="switchDash('map',this)"><span class="nav-item-icon" style="display:flex;align-items:center;justify-content:center"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="1 6 1 22 8 18 16 22 23 18 23 2 16 6 8 2 1 6"/><line x1="8" y1="2" x2="8" y2="18"/><line x1="16" y1="6" x2="16" y2="22"/></svg></span>Peta Bencana</div>
+        <div class="nav-item" onclick="switchDash('needs',this)"><span class="nav-item-icon" style="display:flex;align-items:center;justify-content:center"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"/><rect x="8" y="2" width="8" height="4" rx="1" ry="1"/></svg></span>Kebutuhan Aktif<span class="nav-item-badge">9</span></div>
+        <div class="nav-item" onclick="switchDash('logistics',this)"><span class="nav-item-icon" style="display:flex;align-items:center;justify-content:center"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="1" y="3" width="15" height="13"/><polygon points="16 8 20 8 23 11 23 16 16 16 16 8"/><circle cx="5.5" cy="18.5" r="2.5"/><circle cx="18.5" cy="18.5" r="2.5"/></svg></span>Pengiriman</div>
         <div class="nav-section-label">Inventaris</div>
-        <div class="nav-item" onclick="switchDash('inventory',this)"><span class="nav-item-icon">📦</span>Stok Barang</div>
-        <div class="nav-item" onclick="switchDash('volunteers',this)"><span class="nav-item-icon">🤝</span>Relawan</div>
+        <div class="nav-item" onclick="switchDash('inventory',this)"><span class="nav-item-icon" style="display:flex;align-items:center;justify-content:center"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/><polyline points="3.27 6.96 12 12.01 20.73 6.96"/><line x1="12" y1="22.08" x2="12" y2="12"/></svg></span>Stok Barang</div>
+        <div class="nav-item" onclick="switchDash('volunteers',this)"><span class="nav-item-icon" style="display:flex;align-items:center;justify-content:center"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.42 4.58a5.4 5.4 0 0 0-7.65 0l-.77.78-.77-.78a5.4 5.4 0 0 0-7.65 0C1.46 6.7 1.33 10.28 4 13l8 8 8-8c2.67-2.72 2.54-6.3.42-8.42z"/></svg></span>Relawan</div>
         <div class="nav-section-label">Laporan</div>
-        <div class="nav-item" onclick="switchDash('transparency',this)"><span class="nav-item-icon">📄</span>Transparansi</div>
-        <div class="nav-item" onclick="toggleNotif()"><span class="nav-item-icon">🔔</span>Notifikasi<span class="nav-item-badge" id="notifSidebarBadge">7</span></div>
-        <div class="nav-item" onclick="toast('⚙️ Pengaturan dibuka','⚙️')"><span class="nav-item-icon">⚙️</span>Pengaturan</div>
+        <div class="nav-item" onclick="switchDash('transparency',this)"><span class="nav-item-icon" style="display:flex;align-items:center;justify-content:center"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M13 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9z"/><polyline points="13 2 13 9 20 9"/></svg></span>Transparansi</div>
+        <div class="nav-item" onclick="toggleNotif()"><span class="nav-item-icon" style="display:flex;align-items:center;justify-content:center"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9"/><path d="M13.73 21a2 2 0 0 1-3.46 0"/></svg></span>Notifikasi<span class="nav-item-badge" id="notifSidebarBadge">7</span></div>
+        <div class="nav-item" onclick="toast('Pengaturan dibuka')"><span class="nav-item-icon" style="display:flex;align-items:center;justify-content:center"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14M4.93 4.93a10 10 0 0 0 0 14.14"/><path d="M12 2v2m0 16v2M2 12h2m16 0h2"/></svg></span>Pengaturan</div>
       </nav>
       <div class="sidebar-footer">
         <div class="user-block">
-          <div class="user-av">👤</div>
+          <div class="user-av"><svg style="width:16px;height:16px;display:inline-block;vertical-align:middle;flex-shrink:0" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg></div>
           <div>
             <div class="user-name">Ahmad Koordinator</div>
             <div class="user-role">Koordinator Pusat · PMI</div>
@@ -793,7 +793,7 @@ a{text-decoration:none;color:inherit}
       <div class="dash-topbar">
         <div class="dash-page-title" id="dashPageTitle">Overview Situasi Bencana</div>
         <div class="status-pill sp-danger"><span class="sp-dot"></span>DARURAT AKTIF</div>
-        <button class="btn btn-sm btn-secondary" onclick="toast('Status nasional diubah ke SIAGA','⚠️')">Ubah Status</button>
+        <button class="btn btn-sm btn-secondary" onclick="toast('Status nasional diubah ke SIAGA')">Ubah Status</button>
         <div class="dash-clock" id="dashClockTop"></div>
       </div>
 
@@ -804,7 +804,7 @@ a{text-decoration:none;color:inherit}
           <div class="stat-row">
             <div class="stat-card">
               <div class="stat-card-top">
-                <div class="stat-icon coral">👥</div>
+                <div class="stat-icon coral"><svg style="width:16px;height:16px;display:inline-block;vertical-align:middle;flex-shrink:0" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg></div>
                 <div class="stat-trend trend-up">↑ +320</div>
               </div>
               <div class="stat-label">Jiwa Terdampak</div>
@@ -814,7 +814,7 @@ a{text-decoration:none;color:inherit}
             </div>
             <div class="stat-card">
               <div class="stat-card-top">
-                <div class="stat-icon teal">📦</div>
+                <div class="stat-icon teal"><svg style="width:16px;height:16px;display:inline-block;vertical-align:middle;flex-shrink:0" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/><polyline points="3.27 6.96 12 12.01 20.73 6.96"/><line x1="12" y1="22.08" x2="12" y2="12"/></svg></div>
                 <div class="stat-trend trend-dn">↑ +1.284</div>
               </div>
               <div class="stat-label">Logistik Tersalurkan</div>
@@ -824,7 +824,7 @@ a{text-decoration:none;color:inherit}
             </div>
             <div class="stat-card">
               <div class="stat-card-top">
-                <div class="stat-icon amber">🚛</div>
+                <div class="stat-icon amber"><svg style="width:16px;height:16px;display:inline-block;vertical-align:middle;flex-shrink:0" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="1" y="3" width="15" height="13"/><polygon points="16 8 20 8 23 11 23 16 16 16 16 8"/><circle cx="5.5" cy="18.5" r="2.5"/><circle cx="18.5" cy="18.5" r="2.5"/></svg></div>
                 <div class="stat-trend trend-neu">3 aktif</div>
               </div>
               <div class="stat-label">Pengiriman Aktif</div>
@@ -834,7 +834,7 @@ a{text-decoration:none;color:inherit}
             </div>
             <div class="stat-card">
               <div class="stat-card-top">
-                <div class="stat-icon coral">⚠️</div>
+                <div class="stat-icon coral"><svg style="width:16px;height:16px;display:inline-block;vertical-align:middle;flex-shrink:0" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"/><line x1="12" y1="9" x2="12" y2="13"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg></div>
                 <div class="stat-trend trend-up">↑ +12</div>
               </div>
               <div class="stat-label">Belum Terpenuhi</div>
@@ -847,7 +847,7 @@ a{text-decoration:none;color:inherit}
           <div class="grid-2-3">
             <div class="dcard">
               <div class="dcard-head">
-                <div class="dcard-title"><span class="dcard-title-icon">🗺️</span>Peta & Jalur Distribusi</div>
+                <div class="dcard-title"><span class="dcard-title-icon" style="display:flex;align-items:center;justify-content:center;opacity:.7"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="1 6 1 22 8 18 16 22 23 18 23 2 16 6 8 2 1 6"/><line x1="8" y1="2" x2="8" y2="18"/><line x1="16" y1="6" x2="16" y2="22"/></svg></span>Peta & Jalur Distribusi</div>
                 <button class="dcard-action" onclick="switchDash('map',document.querySelector('.nav-item:nth-child(2)'))">Peta Penuh →</button>
               </div>
               <div class="mini-map" id="dashMiniMap">
@@ -857,18 +857,18 @@ a{text-decoration:none;color:inherit}
                   <line x1="45" y1="20" x2="65" y2="44" stroke="rgba(0,121,107,.4)" stroke-width=".5" stroke-dasharray="2,1.5"/>
                   <line x1="45" y1="20" x2="38" y2="58" stroke="rgba(0,121,107,.3)" stroke-width=".5" stroke-dasharray="2,1.5"/>
                 </svg>
-                <div style="position:absolute;left:41%;top:15%;z-index:4"><div class="map-hq-label" style="font-size:8.5px">🏭 Gudang Pusat</div></div>
+                <div style="position:absolute;left:41%;top:15%;z-index:4"><div class="map-hq-label" style="font-size:8.5px"><svg style="width:13px;height:13px;display:inline-block;vertical-align:middle;flex-shrink:0;margin-right:2px" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg> Gudang Pusat</div></div>
                 <div class="map-pin pin-danger" style="left:28%;top:38%" onclick="openDetail(1)"><div class="map-pin-label" style="font-size:8px">Karangasem</div><div class="map-pin-dot" style="width:10px;height:10px"></div></div>
                 <div class="map-pin pin-warning" style="left:48%;top:28%" onclick="openDetail(2)"><div class="map-pin-label" style="font-size:8px">Cianjur</div><div class="map-pin-dot" style="width:10px;height:10px"></div></div>
                 <div class="map-pin pin-warning" style="left:65%;top:43%" onclick="openDetail(3)"><div class="map-pin-label" style="font-size:8px">Merapi</div><div class="map-pin-dot" style="width:10px;height:10px"></div></div>
                 <div class="map-pin pin-ok" style="left:38%;top:57%" onclick="openDetail(4)"><div class="map-pin-label" style="font-size:8px">Lombok</div><div class="map-pin-dot" style="width:10px;height:10px"></div></div>
-                <div class="map-vehicle" id="dmv1" style="left:37%;top:30%"><div class="mv-label">🚛 HT-01</div><div class="mv-dot"></div></div>
-                <div class="map-vehicle" id="dmv2" style="left:55%;top:36%"><div class="mv-label">🚛 HT-02</div><div class="mv-dot"></div></div>
+                <div class="map-vehicle" id="dmv1" style="left:37%;top:30%"><div class="mv-label"><svg style="width:13px;height:13px;display:inline-block;vertical-align:middle;flex-shrink:0;margin-right:2px" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="1" y="3" width="15" height="13"/><polygon points="16 8 20 8 23 11 23 16 16 16 16 8"/><circle cx="5.5" cy="18.5" r="2.5"/><circle cx="18.5" cy="18.5" r="2.5"/></svg> HT-01</div><div class="mv-dot"></div></div>
+                <div class="map-vehicle" id="dmv2" style="left:55%;top:36%"><div class="mv-label"><svg style="width:13px;height:13px;display:inline-block;vertical-align:middle;flex-shrink:0;margin-right:2px" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="1" y="3" width="15" height="13"/><polygon points="16 8 20 8 23 11 23 16 16 16 16 8"/><circle cx="5.5" cy="18.5" r="2.5"/><circle cx="18.5" cy="18.5" r="2.5"/></svg> HT-02</div><div class="mv-dot"></div></div>
               </div>
             </div>
             <div class="dcard">
               <div class="dcard-head">
-                <div class="dcard-title"><span class="dcard-title-icon">📋</span>Aktivitas Terbaru</div>
+                <div class="dcard-title"><span class="dcard-title-icon" style="display:flex;align-items:center;justify-content:center;opacity:.7"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"/><rect x="8" y="2" width="8" height="4" rx="1" ry="1"/></svg></span>Aktivitas Terbaru</div>
               </div>
               <div id="dashActivity"></div>
             </div>
@@ -876,8 +876,8 @@ a{text-decoration:none;color:inherit}
 
           <div class="dcard" style="margin-bottom:14px">
             <div class="dcard-head">
-              <div class="dcard-title"><span class="dcard-title-icon">🚨</span>Status Bencana Aktif</div>
-              <button class="btn btn-sm btn-primary" onclick="toast('Form laporan bencana baru dibuka','📋')">+ Tambah Laporan</button>
+              <div class="dcard-title"><span class="dcard-title-icon" style="display:flex;align-items:center;justify-content:center;opacity:.7"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"/><line x1="12" y1="9" x2="12" y2="13"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg></span>Status Bencana Aktif</div>
+              <button class="btn btn-sm btn-primary" onclick="toast('Form laporan bencana baru dibuka')">+ Tambah Laporan</button>
             </div>
             <div style="overflow-x:auto">
               <table class="dtable">
@@ -890,7 +890,7 @@ a{text-decoration:none;color:inherit}
           <div class="grid-2">
             <div class="dcard">
               <div class="dcard-head">
-                <div class="dcard-title"><span class="dcard-title-icon">🚛</span>Pengiriman Hari Ini</div>
+                <div class="dcard-title"><span class="dcard-title-icon" style="display:flex;align-items:center;justify-content:center;opacity:.7"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="1" y="3" width="15" height="13"/><polygon points="16 8 20 8 23 11 23 16 16 16 16 8"/><circle cx="5.5" cy="18.5" r="2.5"/><circle cx="18.5" cy="18.5" r="2.5"/></svg></span>Pengiriman Hari Ini</div>
                 <button class="dcard-action" onclick="switchDash('logistics',null)">Semua →</button>
               </div>
               <table class="dtable">
@@ -905,20 +905,20 @@ a{text-decoration:none;color:inherit}
             </div>
             <div class="dcard">
               <div class="dcard-head">
-                <div class="dcard-title"><span class="dcard-title-icon">🔔</span>Alert Prioritas</div>
+                <div class="dcard-title"><span class="dcard-title-icon" style="display:flex;align-items:center;justify-content:center;opacity:.7"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9"/><path d="M13.73 21a2 2 0 0 1-3.46 0"/></svg></span>Alert Prioritas</div>
               </div>
               <div class="al-card al-danger">
-                <div class="al-title" style="color:var(--danger)">🔴 KRITIS — Karangasem</div>
+                <div class="al-title" style="color:var(--danger);display:flex;align-items:center;gap:5px"><svg style="width:13px;height:13px;display:inline-block;vertical-align:middle;flex-shrink:0;margin-right:2px" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"/><line x1="12" y1="9" x2="12" y2="13"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg> KRITIS — Karangasem</div>
                 <div class="al-desc">Stok makanan habis dalam 6 jam. 2.840 jiwa tanpa suplai.</div>
-                <button class="btn btn-danger btn-xs" style="margin-top:8px" onclick="toast('Distribusi darurat Karangasem diaktifkan!','🚨')">Aktifkan Distribusi Darurat</button>
+                <button class="btn btn-danger btn-xs" style="margin-top:8px" onclick="toast('Distribusi darurat Karangasem diaktifkan!')">Aktifkan Distribusi Darurat</button>
               </div>
               <div class="al-card al-warning">
-                <div class="al-title" style="color:var(--amber)">⚠️ SIAGA — Demak</div>
+                <div class="al-title" style="color:var(--amber);display:flex;align-items:center;gap:5px"><svg style="width:13px;height:13px;display:inline-block;vertical-align:middle;flex-shrink:0;margin-right:2px" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"/><line x1="12" y1="9" x2="12" y2="13"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg> SIAGA — Demak</div>
                 <div class="al-desc">650 jiwa terisolir. Perlu kendaraan amfibi segera.</div>
-                <button class="btn btn-warning btn-xs" style="margin-top:8px" onclick="toast('Tim respons dikirim ke Demak','⚠️')">Kirim Tim Respons</button>
+                <button class="btn btn-warning btn-xs" style="margin-top:8px" onclick="toast('Tim respons dikirim ke Demak')">Kirim Tim Respons</button>
               </div>
               <div class="al-card al-success">
-                <div class="al-title" style="color:var(--success)">✅ UPDATE — Lombok</div>
+                <div class="al-title" style="color:var(--success);display:flex;align-items:center;gap:5px"><svg style="width:13px;height:13px;display:inline-block;vertical-align:middle;flex-shrink:0;margin-right:2px" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg> UPDATE — Lombok</div>
                 <div class="al-desc">HT-03 tiba. 50 box obat diserahkan. 450 warga terlayani.</div>
               </div>
             </div>
@@ -929,10 +929,10 @@ a{text-decoration:none;color:inherit}
         <div class="dash-view" id="dv-map">
           <div class="dcard">
             <div class="dcard-head">
-              <div class="dcard-title"><span class="dcard-title-icon">🗺️</span>Peta Penuh — Bencana & Distribusi</div>
+              <div class="dcard-title"><span class="dcard-title-icon" style="display:flex;align-items:center;justify-content:center;opacity:.7"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="1 6 1 22 8 18 16 22 23 18 23 2 16 6 8 2 1 6"/><line x1="8" y1="2" x2="8" y2="18"/><line x1="16" y1="6" x2="16" y2="22"/></svg></span>Peta Penuh — Bencana & Distribusi</div>
               <div style="display:flex;gap:8px">
-                <button class="btn btn-sm btn-secondary" onclick="toast('Filter peta dibuka','🔍')">Filter</button>
-                <button class="btn btn-sm btn-primary" onclick="toast('Layer distribusi aktif','🗺️')">Layer Distribusi</button>
+                <button class="btn btn-sm btn-secondary" onclick="toast('Filter peta dibuka')">Filter</button>
+                <button class="btn btn-sm btn-primary" onclick="toast('Layer distribusi aktif')">Layer Distribusi</button>
               </div>
             </div>
             <div style="height:500px;background:linear-gradient(165deg,#D4E8E4,#C2DDD5);border-radius:10px;position:relative;overflow:hidden">
@@ -942,13 +942,13 @@ a{text-decoration:none;color:inherit}
                 <line x1="43" y1="21" x2="64" y2="43" stroke="rgba(0,121,107,.4)" stroke-width=".4" stroke-dasharray="2,1.5"/>
                 <line x1="43" y1="21" x2="37" y2="58" stroke="rgba(0,121,107,.3)" stroke-width=".4" stroke-dasharray="2,1.5"/>
               </svg>
-              <div style="position:absolute;left:40%;top:18%;z-index:4"><div class="map-hq-label">🏭 Gudang Pusat Jakarta</div></div>
-              <div style="position:absolute;right:8%;top:65%;z-index:4"><div class="map-hq-label">🏭 Gudang Surabaya</div></div>
-              <div class="map-pin pin-danger" style="left:28%;top:36%" onclick="openDetail(1)"><div class="map-pin-label">🔴 Karangasem, Bali</div><div class="map-pin-dot"></div></div>
-              <div class="map-pin pin-warning" style="left:47%;top:28%" onclick="openDetail(2)"><div class="map-pin-label">🟡 Cianjur, Jabar</div><div class="map-pin-dot"></div></div>
-              <div class="map-pin pin-warning" style="left:64%;top:42%" onclick="openDetail(3)"><div class="map-pin-label">🟡 Lereng Merapi</div><div class="map-pin-dot"></div></div>
-              <div class="map-pin pin-ok" style="left:37%;top:57%" onclick="openDetail(4)"><div class="map-pin-label">🟢 Lombok Timur</div><div class="map-pin-dot"></div></div>
-              <div class="map-pin pin-danger" style="left:62%;top:20%" onclick="openDetail(5)"><div class="map-pin-label">🔴 Demak, Jateng</div><div class="map-pin-dot"></div></div>
+              <div style="position:absolute;left:40%;top:18%;z-index:4"><div class="map-hq-label"><svg style="width:13px;height:13px;display:inline-block;vertical-align:middle;flex-shrink:0;margin-right:2px" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg> Gudang Pusat Jakarta</div></div>
+              <div style="position:absolute;right:8%;top:65%;z-index:4"><div class="map-hq-label"><svg style="width:13px;height:13px;display:inline-block;vertical-align:middle;flex-shrink:0;margin-right:2px" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg> Gudang Surabaya</div></div>
+              <div class="map-pin pin-danger" style="left:28%;top:36%" onclick="openDetail(1)"><div class="map-pin-label">● Karangasem, Bali</div><div class="map-pin-dot"></div></div>
+              <div class="map-pin pin-warning" style="left:47%;top:28%" onclick="openDetail(2)"><div class="map-pin-label">● Cianjur, Jabar</div><div class="map-pin-dot"></div></div>
+              <div class="map-pin pin-warning" style="left:64%;top:42%" onclick="openDetail(3)"><div class="map-pin-label">● Lereng Merapi</div><div class="map-pin-dot"></div></div>
+              <div class="map-pin pin-ok" style="left:37%;top:57%" onclick="openDetail(4)"><div class="map-pin-label">● Lombok Timur</div><div class="map-pin-dot"></div></div>
+              <div class="map-pin pin-danger" style="left:62%;top:20%" onclick="openDetail(5)"><div class="map-pin-label">● Demak, Jateng</div><div class="map-pin-dot"></div></div>
               <div class="map-legend">
                 <div class="leg-i"><div class="leg-dot" style="background:var(--danger)"></div>Darurat</div>
                 <div class="leg-i"><div class="leg-dot" style="background:var(--amber)"></div>Siaga</div>
@@ -963,7 +963,7 @@ a{text-decoration:none;color:inherit}
         <div class="dash-view" id="dv-needs">
           <div class="dcard">
             <div class="dcard-head">
-              <div class="dcard-title"><span class="dcard-title-icon">📋</span>Semua Kebutuhan Aktif (9)</div>
+              <div class="dcard-title"><span class="dcard-title-icon" style="display:flex;align-items:center;justify-content:center;opacity:.7"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"/><rect x="8" y="2" width="8" height="4" rx="1" ry="1"/></svg></span>Semua Kebutuhan Aktif (9)</div>
               <button class="btn btn-sm btn-primary" onclick="showPage('campaigns',null)">Lihat Portal →</button>
             </div>
             <div style="overflow-x:auto">
@@ -979,23 +979,23 @@ a{text-decoration:none;color:inherit}
         <div class="dash-view" id="dv-logistics">
           <div class="dcard" style="margin-bottom:14px">
             <div class="dcard-head">
-              <div class="dcard-title"><span class="dcard-title-icon">🚛</span>Manajemen Pengiriman</div>
-              <button class="btn btn-sm btn-primary" onclick="toast('Form pengiriman baru dibuka','🚛')">+ Pengiriman Baru</button>
+              <div class="dcard-title"><span class="dcard-title-icon" style="display:flex;align-items:center;justify-content:center;opacity:.7"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="1" y="3" width="15" height="13"/><polygon points="16 8 20 8 23 11 23 16 16 16 16 8"/><circle cx="5.5" cy="18.5" r="2.5"/><circle cx="18.5" cy="18.5" r="2.5"/></svg></span>Manajemen Pengiriman</div>
+              <button class="btn btn-sm btn-primary" onclick="toast('Form pengiriman baru dibuka')">+ Pengiriman Baru</button>
             </div>
             <div style="overflow-x:auto">
               <table class="dtable">
                 <thead><tr><th>ID</th><th>Kendaraan</th><th>Pengemudi</th><th>Muatan</th><th>Tujuan</th><th>Jarak</th><th>Status</th><th>ETA</th><th>Aksi</th></tr></thead>
                 <tbody>
-                  <tr><td style="font-weight:700">HT-01</td><td>Truk 4 Ton</td><td>Budi W.</td><td>200 pkt makanan</td><td>Karangasem</td><td>384 km</td><td><span class="badge badge-info">Perjalanan</span></td><td>~2 jam</td><td><button class="btn btn-xs btn-ghost" onclick="toast('Tracking HT-01 live','🗺️')">Lacak</button></td></tr>
-                  <tr><td style="font-weight:700">HT-02</td><td>Truk 4 Ton</td><td>Rina S.</td><td>300 selimut</td><td>Cianjur</td><td>82 km</td><td><span class="badge badge-info">Perjalanan</span></td><td>~1.5 jam</td><td><button class="btn btn-xs btn-ghost" onclick="toast('Tracking HT-02 live','🗺️')">Lacak</button></td></tr>
-                  <tr><td style="font-weight:700">HT-03</td><td>Truk 4 Ton</td><td>Joko P.</td><td>50 box obat</td><td>Karangasem</td><td>384 km</td><td><span class="badge badge-success">Terkirim ✓</span></td><td>Selesai</td><td><button class="btn btn-xs btn-ghost" onclick="toast('Melihat bukti pengiriman','📸')">Bukti</button></td></tr>
-                  <tr><td style="font-weight:700">HT-04</td><td>Truk 4 Ton</td><td>Agus M.</td><td>Kendaraan evakuasi</td><td>Merapi</td><td>512 km</td><td><span class="badge badge-warning">Loading</span></td><td>~4 jam</td><td><button class="btn btn-xs btn-ghost" onclick="toast('Melihat manifest','📋')">Manifest</button></td></tr>
-                  <tr><td style="font-weight:700">HT-05</td><td>Motor Box</td><td>Dedi R.</td><td>Obat darurat</td><td>Demak</td><td>25 km</td><td><span class="badge badge-info">Perjalanan</span></td><td>~30 mnt</td><td><button class="btn btn-xs btn-ghost" onclick="toast('Tracking HT-05','🗺️')">Lacak</button></td></tr>
+                  <tr><td style="font-weight:700">HT-01</td><td>Truk 4 Ton</td><td>Budi W.</td><td>200 pkt makanan</td><td>Karangasem</td><td>384 km</td><td><span class="badge badge-info">Perjalanan</span></td><td>~2 jam</td><td><button class="btn btn-xs btn-ghost" onclick="toast('Tracking HT-01 live')">Lacak</button></td></tr>
+                  <tr><td style="font-weight:700">HT-02</td><td>Truk 4 Ton</td><td>Rina S.</td><td>300 selimut</td><td>Cianjur</td><td>82 km</td><td><span class="badge badge-info">Perjalanan</span></td><td>~1.5 jam</td><td><button class="btn btn-xs btn-ghost" onclick="toast('Tracking HT-02 live')">Lacak</button></td></tr>
+                  <tr><td style="font-weight:700">HT-03</td><td>Truk 4 Ton</td><td>Joko P.</td><td>50 box obat</td><td>Karangasem</td><td>384 km</td><td><span class="badge badge-success">Terkirim ✓</span></td><td>Selesai</td><td><button class="btn btn-xs btn-ghost" onclick="toast('Melihat bukti pengiriman')">Bukti</button></td></tr>
+                  <tr><td style="font-weight:700">HT-04</td><td>Truk 4 Ton</td><td>Agus M.</td><td>Kendaraan evakuasi</td><td>Merapi</td><td>512 km</td><td><span class="badge badge-warning">Loading</span></td><td>~4 jam</td><td><button class="btn btn-xs btn-ghost" onclick="toast('Melihat manifest')">Manifest</button></td></tr>
+                  <tr><td style="font-weight:700">HT-05</td><td>Motor Box</td><td>Dedi R.</td><td>Obat darurat</td><td>Demak</td><td>25 km</td><td><span class="badge badge-info">Perjalanan</span></td><td>~30 mnt</td><td><button class="btn btn-xs btn-ghost" onclick="toast('Tracking HT-05')">Lacak</button></td></tr>
                 </tbody>
               </table>
             </div>
             <div style="margin-top:14px;display:flex;gap:8px">
-              <button class="btn btn-secondary btn-sm" onclick="toast('Laporan diunduh','📊')">⬇ Export Laporan</button>
+              <button class="btn btn-secondary btn-sm" onclick="toast('Laporan diunduh')"><svg style="width:13px;height:13px;display:inline-block;vertical-align:middle;flex-shrink:0;margin-right:2px" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg> Export Laporan</button>
             </div>
           </div>
         </div>
@@ -1004,21 +1004,21 @@ a{text-decoration:none;color:inherit}
         <div class="dash-view" id="dv-inventory">
           <div class="wh-stat-row">
             <div class="wh-card">
-              <div class="wh-icon">🏭</div>
+              <div class="wh-icon"><svg style="width:16px;height:16px;display:inline-block;vertical-align:middle;flex-shrink:0" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg></div>
               <div class="wh-name">Gudang A — Jakarta</div>
               <div class="wh-val">18.450</div>
               <div class="wh-cap">72% kapasitas</div>
               <div class="wh-bar"><div class="wh-bar-fill" style="width:72%;background:var(--blue)"></div></div>
             </div>
             <div class="wh-card">
-              <div class="wh-icon">🏭</div>
+              <div class="wh-icon"><svg style="width:16px;height:16px;display:inline-block;vertical-align:middle;flex-shrink:0" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg></div>
               <div class="wh-name">Gudang B — Karawang</div>
               <div class="wh-val">21.200</div>
               <div class="wh-cap" style="color:var(--amber)">85% kapasitas — Hampir penuh</div>
               <div class="wh-bar"><div class="wh-bar-fill" style="width:85%;background:var(--amber)"></div></div>
             </div>
             <div class="wh-card">
-              <div class="wh-icon">🏭</div>
+              <div class="wh-icon"><svg style="width:16px;height:16px;display:inline-block;vertical-align:middle;flex-shrink:0" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg></div>
               <div class="wh-name">Gudang C — Bekasi</div>
               <div class="wh-val">8.742</div>
               <div class="wh-cap" style="color:var(--teal)">35% kapasitas — Tersedia</div>
@@ -1027,22 +1027,22 @@ a{text-decoration:none;color:inherit}
           </div>
           <div class="dcard">
             <div class="dcard-head">
-              <div class="dcard-title"><span class="dcard-title-icon">📦</span>Stok Barang Bantuan</div>
+              <div class="dcard-title"><span class="dcard-title-icon" style="display:flex;align-items:center;justify-content:center;opacity:.7"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/><polyline points="3.27 6.96 12 12.01 20.73 6.96"/><line x1="12" y1="22.08" x2="12" y2="12"/></svg></span>Stok Barang Bantuan</div>
               <div style="display:flex;gap:8px">
-                <button class="btn btn-sm btn-secondary" onclick="toast('Filter stok dibuka','🔍')">Filter</button>
-                <button class="btn btn-sm btn-primary" onclick="toast('Form tambah barang dibuka','📦')">+ Tambah Barang</button>
+                <button class="btn btn-sm btn-secondary" onclick="toast('Filter stok dibuka')">Filter</button>
+                <button class="btn btn-sm btn-primary" onclick="toast('Form tambah barang dibuka')">+ Tambah Barang</button>
               </div>
             </div>
             <div style="overflow-x:auto">
               <table class="dtable">
                 <thead><tr><th>Nama Barang</th><th>Kategori</th><th>Stok</th><th>Satuan</th><th>Gudang</th><th>Kadaluwarsa</th><th>Status</th><th>Aksi</th></tr></thead>
                 <tbody>
-                  <tr><td style="font-weight:700">🌾 Beras Premium</td><td>Pangan</td><td style="font-weight:700;color:var(--teal)">850</td><td>Kg</td><td>Gudang A</td><td>—</td><td><span class="badge badge-success">Cukup</span></td><td><button class="btn btn-xs btn-ghost" onclick="toast('Detail beras','📊')">Detail</button></td></tr>
-                  <tr><td style="font-weight:700">🍜 Mie Instan</td><td>Pangan</td><td style="font-weight:700;color:var(--amber)">1.240</td><td>Karton</td><td>Gudang B</td><td style="color:var(--danger);font-weight:600">12 Agt 2025</td><td><span class="badge badge-warning">Segera Salurkan</span></td><td><button class="btn btn-xs btn-ghost" onclick="toast('Detail mie instan','📊')">Detail</button></td></tr>
-                  <tr><td style="font-weight:700">💊 Paracetamol</td><td>Medis</td><td style="font-weight:700;color:var(--danger)">84</td><td>Box</td><td>Gudang A</td><td style="color:var(--danger);font-weight:600">03 Jul 2025</td><td><span class="badge badge-danger">Kritis!</span></td><td><button class="btn btn-xs btn-danger" onclick="toast('Permintaan darurat paracetamol','🚨')">Restock</button></td></tr>
-                  <tr><td style="font-weight:700">🧥 Selimut Tebal</td><td>Sandang</td><td style="font-weight:700;color:var(--amber)">320</td><td>Pcs</td><td>Gudang C</td><td>—</td><td><span class="badge badge-warning">Kurang</span></td><td><button class="btn btn-xs btn-ghost" onclick="toast('Detail selimut','📊')">Detail</button></td></tr>
-                  <tr><td style="font-weight:700">💧 Air Mineral</td><td>Pangan</td><td style="font-weight:700;color:var(--teal)">4.800</td><td>Botol</td><td>Gudang A</td><td>—</td><td><span class="badge badge-success">Cukup</span></td><td><button class="btn btn-xs btn-ghost" onclick="toast('Detail air mineral','📊')">Detail</button></td></tr>
-                  <tr><td style="font-weight:700">⛺ Tenda Darurat</td><td>Shelter</td><td style="font-weight:700;color:var(--danger)">12</td><td>Unit</td><td>Gudang B</td><td>—</td><td><span class="badge badge-danger">Kritis!</span></td><td><button class="btn btn-xs btn-danger" onclick="toast('Permintaan darurat tenda','🚨')">Restock</button></td></tr>
+                  <tr><td style="font-weight:700"><svg style="width:13px;height:13px;display:inline-block;vertical-align:middle;flex-shrink:0;margin-right:2px" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 2v7c0 1.1.9 2 2 2h4a2 2 0 0 0 2-2V2"/><path d="M7 2v20"/><path d="M21 15V2a5 5 0 0 0-5 5v6c0 1.1.9 2 2 2h3zm0 0v7"/></svg> Beras Premium</td><td>Pangan</td><td style="font-weight:700;color:var(--teal)">850</td><td>Kg</td><td>Gudang A</td><td>—</td><td><span class="badge badge-success">Cukup</span></td><td><button class="btn btn-xs btn-ghost" onclick="toast('Detail beras')">Detail</button></td></tr>
+                  <tr><td style="font-weight:700"><svg style="width:13px;height:13px;display:inline-block;vertical-align:middle;flex-shrink:0;margin-right:2px" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 2v7c0 1.1.9 2 2 2h4a2 2 0 0 0 2-2V2"/><path d="M7 2v20"/><path d="M21 15V2a5 5 0 0 0-5 5v6c0 1.1.9 2 2 2h3zm0 0v7"/></svg> Mie Instan</td><td>Pangan</td><td style="font-weight:700;color:var(--amber)">1.240</td><td>Karton</td><td>Gudang B</td><td style="color:var(--danger);font-weight:600">12 Agt 2025</td><td><span class="badge badge-warning">Segera Salurkan</span></td><td><button class="btn btn-xs btn-ghost" onclick="toast('Detail mie instan')">Detail</button></td></tr>
+                  <tr><td style="font-weight:700"><svg style="width:13px;height:13px;display:inline-block;vertical-align:middle;flex-shrink:0;margin-right:2px" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m10.5 20.5 10-10a4.95 4.95 0 1 0-7-7l-10 10a4.95 4.95 0 1 0 7 7z"/><line x1="8.5" y1="8.5" x2="15.5" y2="15.5"/></svg> Paracetamol</td><td>Medis</td><td style="font-weight:700;color:var(--danger)">84</td><td>Box</td><td>Gudang A</td><td style="color:var(--danger);font-weight:600">03 Jul 2025</td><td><span class="badge badge-danger">Kritis!</span></td><td><button class="btn btn-xs btn-danger" onclick="toast('Permintaan darurat paracetamol')">Restock</button></td></tr>
+                  <tr><td style="font-weight:700"><svg style="width:13px;height:13px;display:inline-block;vertical-align:middle;flex-shrink:0;margin-right:2px" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.38 3.46L16 2a4 4 0 0 1-8 0L3.62 3.46a2 2 0 0 0-1.34 2.23l.58 3.57a1 1 0 0 0 .99.84H6v10c0 1.1.9 2 2 2h8a2 2 0 0 0 2-2V10h2.15a1 1 0 0 0 .99-.84l.58-3.57a2 2 0 0 0-1.34-2.23z"/></svg> Selimut Tebal</td><td>Sandang</td><td style="font-weight:700;color:var(--amber)">320</td><td>Pcs</td><td>Gudang C</td><td>—</td><td><span class="badge badge-warning">Kurang</span></td><td><button class="btn btn-xs btn-ghost" onclick="toast('Detail selimut')">Detail</button></td></tr>
+                  <tr><td style="font-weight:700"><svg style="width:13px;height:13px;display:inline-block;vertical-align:middle;flex-shrink:0;margin-right:2px" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2.69l5.66 5.66a8 8 0 1 1-11.31 0z"/></svg> Air Mineral</td><td>Pangan</td><td style="font-weight:700;color:var(--teal)">4.800</td><td>Botol</td><td>Gudang A</td><td>—</td><td><span class="badge badge-success">Cukup</span></td><td><button class="btn btn-xs btn-ghost" onclick="toast('Detail air mineral')">Detail</button></td></tr>
+                  <tr><td style="font-weight:700"><svg style="width:13px;height:13px;display:inline-block;vertical-align:middle;flex-shrink:0;margin-right:2px" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3.5 21L12 3l8.5 18"/><path d="M3.5 21h17"/><path d="M9 21L12 9l3 12"/></svg> Tenda Darurat</td><td>Shelter</td><td style="font-weight:700;color:var(--danger)">12</td><td>Unit</td><td>Gudang B</td><td>—</td><td><span class="badge badge-danger">Kritis!</span></td><td><button class="btn btn-xs btn-danger" onclick="toast('Permintaan darurat tenda')">Restock</button></td></tr>
                 </tbody>
               </table>
             </div>
@@ -1071,13 +1071,13 @@ a{text-decoration:none;color:inherit}
           </div>
           <div class="dcard">
             <div class="dcard-head">
-              <div class="dcard-title"><span class="dcard-title-icon">🤝</span>Daftar Relawan</div>
-              <button class="btn btn-sm btn-primary" onclick="toast('Form pendaftaran relawan dibuka','🤝')">+ Tambah Relawan</button>
+              <div class="dcard-title"><span class="dcard-title-icon" style="display:flex;align-items:center;justify-content:center;opacity:.7"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.42 4.58a5.4 5.4 0 0 0-7.65 0l-.77.78-.77-.78a5.4 5.4 0 0 0-7.65 0C1.46 6.7 1.33 10.28 4 13l8 8 8-8c2.67-2.72 2.54-6.3.42-8.42z"/></svg></span>Daftar Relawan</div>
+              <button class="btn btn-sm btn-primary" onclick="toast('Form pendaftaran relawan dibuka')">+ Tambah Relawan</button>
             </div>
-            <div class="vol-card"><div class="vol-av">👨‍⚕️</div><div style="flex:1"><div class="vol-name">dr. Ahmad Santoso</div><div class="vol-spec">Dokter Umum · Karangasem</div><div class="vol-tags"><span class="vol-tag">Medis</span><span class="vol-tag">IGD</span></div></div><div class="vol-actions"><span class="badge badge-success">Aktif</span><button class="btn btn-xs btn-ghost" onclick="toast('Profil dr. Ahmad dibuka','👨‍⚕️')">Profil</button></div></div>
-            <div class="vol-card"><div class="vol-av">👩</div><div style="flex:1"><div class="vol-name">Dewi Kartika</div><div class="vol-spec">Koordinator Logistik · Cianjur</div><div class="vol-tags"><span class="vol-tag">Logistik</span><span class="vol-tag">Distribusi</span></div></div><div class="vol-actions"><span class="badge badge-success">Aktif</span><button class="btn btn-xs btn-ghost" onclick="toast('Profil Dewi dibuka','👩')">Profil</button></div></div>
-            <div class="vol-card"><div class="vol-av">👨</div><div style="flex:1"><div class="vol-name">Budi Santoso</div><div class="vol-spec">Pengemudi & Navigasi · Jakarta</div><div class="vol-tags"><span class="vol-tag">Transportasi</span></div></div><div class="vol-actions"><span class="badge badge-info">Standby</span><button class="btn btn-xs btn-ghost" onclick="toast('Profil Budi dibuka','👨')">Profil</button></div></div>
-            <div class="vol-card"><div class="vol-av">👩‍⚕️</div><div style="flex:1"><div class="vol-name">Siti Rahayu, S.Kep</div><div class="vol-spec">Perawat · Lombok Timur</div><div class="vol-tags"><span class="vol-tag">Medis</span><span class="vol-tag">Perawatan</span></div></div><div class="vol-actions"><span class="badge badge-success">Aktif</span><button class="btn btn-xs btn-ghost" onclick="toast('Profil Siti dibuka','👩‍⚕️')">Profil</button></div></div>
+            <div class="vol-card"><div class="vol-av"><svg style="width:16px;height:16px;display:inline-block;vertical-align:middle;flex-shrink:0" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg></div><div style="flex:1"><div class="vol-name">dr. Ahmad Santoso</div><div class="vol-spec">Dokter Umum · Karangasem</div><div class="vol-tags"><span class="vol-tag">Medis</span><span class="vol-tag">IGD</span></div></div><div class="vol-actions"><span class="badge badge-success">Aktif</span><button class="btn btn-xs btn-ghost" onclick="toast('Profil dr. Ahmad dibuka')">Profil</button></div></div>
+            <div class="vol-card"><div class="vol-av"><svg style="width:16px;height:16px;display:inline-block;vertical-align:middle;flex-shrink:0" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg></div><div style="flex:1"><div class="vol-name">Dewi Kartika</div><div class="vol-spec">Koordinator Logistik · Cianjur</div><div class="vol-tags"><span class="vol-tag">Logistik</span><span class="vol-tag">Distribusi</span></div></div><div class="vol-actions"><span class="badge badge-success">Aktif</span><button class="btn btn-xs btn-ghost" onclick="toast('Profil Dewi dibuka')">Profil</button></div></div>
+            <div class="vol-card"><div class="vol-av"><svg style="width:16px;height:16px;display:inline-block;vertical-align:middle;flex-shrink:0" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg></div><div style="flex:1"><div class="vol-name">Budi Santoso</div><div class="vol-spec">Pengemudi & Navigasi · Jakarta</div><div class="vol-tags"><span class="vol-tag">Transportasi</span></div></div><div class="vol-actions"><span class="badge badge-info">Standby</span><button class="btn btn-xs btn-ghost" onclick="toast('Profil Budi dibuka')">Profil</button></div></div>
+            <div class="vol-card"><div class="vol-av"><svg style="width:16px;height:16px;display:inline-block;vertical-align:middle;flex-shrink:0" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg></div><div style="flex:1"><div class="vol-name">Siti Rahayu, S.Kep</div><div class="vol-spec">Perawat · Lombok Timur</div><div class="vol-tags"><span class="vol-tag">Medis</span><span class="vol-tag">Perawatan</span></div></div><div class="vol-actions"><span class="badge badge-success">Aktif</span><button class="btn btn-xs btn-ghost" onclick="toast('Profil Siti dibuka')">Profil</button></div></div>
           </div>
         </div>
 
@@ -1085,12 +1085,12 @@ a{text-decoration:none;color:inherit}
         <div class="dash-view" id="dv-transparency">
           <div class="report-card">
             <div class="report-head">
-              <div class="report-icon">📊</div>
+              <div class="report-icon"><svg style="width:16px;height:16px;display:inline-block;vertical-align:middle;flex-shrink:0" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="20" x2="18" y2="10"/><line x1="12" y1="20" x2="12" y2="4"/><line x1="6" y1="20" x2="6" y2="14"/></svg></div>
               <div>
                 <div class="report-title">Laporan Harian — 5 Juni 2025</div>
                 <div class="report-date">Auto-generated · Terverifikasi PMI</div>
               </div>
-              <button class="btn btn-sm btn-ghost" style="margin-left:auto" onclick="toast('Laporan diunduh sebagai PDF','📄')">⬇ Unduh PDF</button>
+              <button class="btn btn-sm btn-ghost" style="margin-left:auto" onclick="toast('Laporan diunduh sebagai PDF')"><svg style="width:13px;height:13px;display:inline-block;vertical-align:middle;flex-shrink:0;margin-right:2px" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg> Unduh PDF</button>
             </div>
             <div class="report-metrics">
               <div class="rm"><div class="rm-val">12.847</div><div class="rm-label">Jiwa Terdampak</div></div>
@@ -1101,12 +1101,12 @@ a{text-decoration:none;color:inherit}
           </div>
           <div class="report-card">
             <div class="report-head">
-              <div class="report-icon">📦</div>
+              <div class="report-icon"><svg style="width:16px;height:16px;display:inline-block;vertical-align:middle;flex-shrink:0" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/><polyline points="3.27 6.96 12 12.01 20.73 6.96"/><line x1="12" y1="22.08" x2="12" y2="12"/></svg></div>
               <div>
                 <div class="report-title">Laporan Inventaris Mingguan</div>
                 <div class="report-date">1 – 5 Juni 2025</div>
               </div>
-              <button class="btn btn-sm btn-ghost" style="margin-left:auto" onclick="toast('Laporan inventaris diunduh','📄')">⬇ Unduh</button>
+              <button class="btn btn-sm btn-ghost" style="margin-left:auto" onclick="toast('Laporan inventaris diunduh')"><svg style="width:13px;height:13px;display:inline-block;vertical-align:middle;flex-shrink:0;margin-right:2px" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg> Unduh</button>
             </div>
             <div class="report-metrics">
               <div class="rm"><div class="rm-val">48.392</div><div class="rm-label">Total Keluar</div></div>
@@ -1117,12 +1117,12 @@ a{text-decoration:none;color:inherit}
           </div>
           <div class="report-card">
             <div class="report-head">
-              <div class="report-icon">🚛</div>
+              <div class="report-icon"><svg style="width:16px;height:16px;display:inline-block;vertical-align:middle;flex-shrink:0" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="1" y="3" width="15" height="13"/><polygon points="16 8 20 8 23 11 23 16 16 16 16 8"/><circle cx="5.5" cy="18.5" r="2.5"/><circle cx="18.5" cy="18.5" r="2.5"/></svg></div>
               <div>
                 <div class="report-title">Laporan Distribusi Mingguan</div>
                 <div class="report-date">1 – 5 Juni 2025</div>
               </div>
-              <button class="btn btn-sm btn-ghost" style="margin-left:auto" onclick="toast('Laporan distribusi diunduh','📄')">⬇ Unduh</button>
+              <button class="btn btn-sm btn-ghost" style="margin-left:auto" onclick="toast('Laporan distribusi diunduh')"><svg style="width:13px;height:13px;display:inline-block;vertical-align:middle;flex-shrink:0;margin-right:2px" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg> Unduh</button>
             </div>
             <div class="report-metrics">
               <div class="rm"><div class="rm-val">28</div><div class="rm-label">Pengiriman Selesai</div></div>
@@ -1139,44 +1139,77 @@ a{text-decoration:none;color:inherit}
 </div><!-- page dashboard -->
 
 <script>
+
+// ══ ICON MAP ══
+const SVG_ICONS = {
+  flame: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M8.5 14.5A2.5 2.5 0 0 0 11 12c0-1.38-.5-2-1-3-1.072-2.143-.224-4.054 2-6 .5 2.5 2 4.9 4 6.5 2 1.6 3 3.5 3 5.5a7 7 0 1 1-14 0c0-1.153.433-2.294 1-3a2.5 2.5 0 0 0 2.5 2.5z"/></svg>`,
+  flame2: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M8.5 14.5A2.5 2.5 0 0 0 11 12c0-1.38-.5-2-1-3-1.072-2.143-.224-4.054 2-6 .5 2.5 2 4.9 4 6.5 2 1.6 3 3.5 3 5.5a7 7 0 1 1-14 0c0-1.153.433-2.294 1-3a2.5 2.5 0 0 0 2.5 2.5z"/></svg>`,
+  mountain: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><polygon points="3 20 15.5 4 22 20"/><polygon points="1 20 9 7.5 13 14 10 20"/></svg>`,
+  home: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>`,
+  waves: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M2 6c.6.5 1.2 1 2.5 1C7 7 7 5 9.5 5c2.6 0 2.4 2 5 2 2.5 0 2.5-2 5-2 1.3 0 1.9.5 2.5 1"/><path d="M2 12c.6.5 1.2 1 2.5 1 2.5 0 2.5-2 5-2 2.6 0 2.4 2 5 2 2.5 0 2.5-2 5-2 1.3 0 1.9.5 2.5 1"/><path d="M2 18c.6.5 1.2 1 2.5 1 2.5 0 2.5-2 5-2 2.6 0 2.4 2 5 2 2.5 0 2.5-2 5-2 1.3 0 1.9.5 2.5 1"/></svg>`,
+  desert: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/></svg>`,
+  box: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/><polyline points="3.27 6.96 12 12.01 20.73 6.96"/><line x1="12" y1="22.08" x2="12" y2="12"/></svg>`,
+  truck: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="1" y="3" width="15" height="13"/><polygon points="16 8 20 8 23 11 23 16 16 16 16 8"/><circle cx="5.5" cy="18.5" r="2.5"/><circle cx="18.5" cy="18.5" r="2.5"/></svg>`,
+  users: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>`,
+  pin: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>`,
+  pill: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="m10.5 20.5 10-10a4.95 4.95 0 1 0-7-7l-10 10a4.95 4.95 0 1 0 7 7z"/><line x1="8.5" y1="8.5" x2="15.5" y2="15.5"/></svg>`,
+  food: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 2v7c0 1.1.9 2 2 2h4a2 2 0 0 0 2-2V2"/><path d="M7 2v20"/><path d="M21 15V2a5 5 0 0 0-5 5v6c0 1.1.9 2 2 2h3zm0 0v7"/></svg>`,
+  clock: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>`,
+  handshake: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20.42 4.58a5.4 5.4 0 0 0-7.65 0l-.77.78-.77-.78a5.4 5.4 0 0 0-7.65 0C1.46 6.7 1.33 10.28 4 13l8 8 8-8c2.67-2.72 2.54-6.3.42-8.42z"/></svg>`,
+  check: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>`,
+  alert: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"/><line x1="12" y1="9" x2="12" y2="13"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>`,
+  file: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M13 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9z"/><polyline points="13 2 13 9 20 9"/></svg>`,
+  chart: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="20" x2="18" y2="10"/><line x1="12" y1="20" x2="12" y2="4"/><line x1="6" y1="20" x2="6" y2="14"/></svg>`,
+};
+function getIcon(name, opts={}) {
+  const svg = SVG_ICONS[name] || SVG_ICONS.box;
+  const {size='20px', color='currentColor'} = opts;
+  return svg.replace('<svg ', `<svg style="width:${size};height:${size};display:inline-block;vertical-align:middle;flex-shrink:0;stroke:${color}" `);
+}
+function getTagIcon(tag) {
+  if(tag==='makanan') return getIcon('food',{size:'12px'});
+  if(tag==='medis') return getIcon('pill',{size:'12px'});
+  return getIcon('home',{size:'12px'});
+}
+
 // ══════════════════════════════════
 // DATA
 // ══════════════════════════════════
 const NEEDS = [
-  {id:1,loc:'Karangasem, Bali',title:'Gempa Bali — 2.840 Jiwa Butuh Makanan Darurat',status:'darurat',emoji:'🌋',bg:'linear-gradient(135deg,#7B3F00,#A0522D)',pct:35,goal:100,collected:35,items:['🍱 Paket makanan ×500','💧 Air mineral ×2000','💊 Obat-obatan ×50 box'],donatur:22,waktu:'30 menit lalu',verif:'BNPB',jiwa:2840,tags:['makanan','medis'],desc:'Gempa 6.2 SR mengguncang Karangasem. 2.840 jiwa mengungsi dan membutuhkan bantuan makanan darurat segera.',timeline:[{dot:'var(--danger)',t:'🌋 Gempa 6.2 SR melanda Karangasem',s:'5 Jun 2025, 03:24'},{dot:'var(--amber)',t:'✅ Tim PMI dan BNPB tiba di lokasi',s:'5 Jun 2025, 05:10'},{dot:'var(--teal)',t:'📦 Kiriman pertama 200 paket makanan tiba',s:'5 Jun 2025, 11:30'}]},
-  {id:2,loc:'Cianjur, Jabar',title:'Longsor Cianjur — 1.200 Jiwa Perlu Tempat Tinggal',status:'siaga',emoji:'🏔️',bg:'linear-gradient(135deg,#2D4A1E,#3D6B2A)',pct:62,goal:50,collected:31,items:['⛺ Tenda darurat ×50','🧥 Selimut ×300','🍱 Makanan ×200 pkt'],donatur:28,waktu:'5 jam lalu',verif:'PMI',jiwa:1200,tags:['tempat','makanan'],desc:'Longsor di lereng Cianjur menghancurkan 120 rumah. 1.200 jiwa membutuhkan tempat tinggal sementara.',timeline:[{dot:'var(--danger)',t:'🏔️ Longsor melanda 3 desa',s:'4 Jun 2025, 23:15'},{dot:'var(--amber)',t:'✅ 80 relawan bergabung',s:'5 Jun 2025, 07:00'}]},
-  {id:3,loc:'Lereng Merapi',title:'Erupsi Merapi — 890 Warga Butuh Masker & Evakuasi',status:'siaga',emoji:'🌋',bg:'linear-gradient(135deg,#4A0E0E,#7B1A1A)',pct:78,goal:45,collected:35,items:['😷 Masker N95 ×5000','🚌 Armada evakuasi ×3'],donatur:45,waktu:'1 hari lalu',verif:'BNPB',jiwa:890,tags:['medis'],desc:'Aktivitas Merapi meningkat signifikan. Radius 5 km dievakuasi. 890 warga membutuhkan masker dan transportasi.',timeline:[{dot:'var(--amber)',t:'🌋 Status Merapi naik ke SIAGA',s:'4 Jun 2025'},{dot:'var(--teal)',t:'✅ Evakuasi 600 warga selesai',s:'5 Jun 2025'}]},
-  {id:4,loc:'Lombok Timur, NTB',title:'Gempa Lombok — Rekonstruksi 450 Rumah Rusak',status:'pemulihan',emoji:'🏠',bg:'linear-gradient(135deg,#1A4A3A,#2D6B55)',pct:88,goal:19,collected:17,items:['🔨 Material bangunan','🛠️ Tim konstruksi'],donatur:19,waktu:'2 hari lalu',verif:'ACT',jiwa:450,tags:['tempat'],desc:'Tahap pemulihan pasca gempa Lombok. 88% rumah telah selesai dibangun kembali.',timeline:[{dot:'var(--teal)',t:'✅ 400 dari 450 unit selesai dibangun',s:'3 Jun 2025'}]},
-  {id:5,loc:'Demak, Jawa Tengah',title:'Banjir Rob Demak — 650 Jiwa Butuh Perahu Karet',status:'darurat',emoji:'🌊',bg:'linear-gradient(135deg,#1a4a6b,#2a6a8b)',pct:22,goal:5,collected:1,items:['🚤 Perahu karet ×5','🍱 Makanan ×100','💊 Obat ×30 box'],donatur:5,waktu:'1 jam lalu',verif:'BNPB',jiwa:650,tags:['makanan','medis'],desc:'Banjir rob ekstrem melanda pesisir Demak. 650 jiwa terjebak dan tidak bisa dievakuasi tanpa perahu karet.',timeline:[{dot:'var(--danger)',t:'🌊 Laporan banjir rob ekstrem',s:'5 Jun 2025, 07:45'},{dot:'var(--amber)',t:'✅ Tim BNPB menuju lokasi',s:'5 Jun 2025, 08:30'}]},
-  {id:6,loc:'Flores, NTT',title:'Kekeringan Flores — 800 KK Butuh Air Bersih',status:'siaga',emoji:'🏜️',bg:'linear-gradient(135deg,#8B6914,#B8860B)',pct:40,goal:800,collected:320,items:['🚰 Tangki air ×20','💧 Jeriken ×500'],donatur:22,waktu:'3 hari lalu',verif:'BNPB',jiwa:3200,tags:['makanan'],desc:'Kekeringan berkepanjangan di Flores mengancam 800 KK. Sumber air bersih mengering.',timeline:[{dot:'var(--amber)',t:'🏜️ Laporan kekeringan parah',s:'3 Jun 2025'},{dot:'var(--teal)',t:'🚰 4 tangki air dikirim',s:'4 Jun 2025'}]},
+  {id:1,loc:'Karangasem, Bali',title:'Gempa Bali — 2.840 Jiwa Butuh Makanan Darurat',status:'darurat',emoji:'flame',bg:'linear-gradient(135deg,#7B3F00,#A0522D)',pct:35,goal:100,collected:35,items:['Paket makanan ×500','Air mineral ×2000','Obat-obatan ×50 box'],donatur:22,waktu:'30 menit lalu',verif:'BNPB',jiwa:2840,tags:['makanan','medis'],desc:'Gempa 6.2 SR mengguncang Karangasem. 2.840 jiwa mengungsi dan membutuhkan bantuan makanan darurat segera.',timeline:[{dot:'var(--danger)',t:'<svg style="width:13px;height:13px;display:inline-block;vertical-align:middle;flex-shrink:0;margin-right:2px" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M8.5 14.5A2.5 2.5 0 0 0 11 12c0-1.38-.5-2-1-3-1.072-2.143-.224-4.054 2-6 .5 2.5 2 4.9 4 6.5 2 1.6 3 3.5 3 5.5a7 7 0 1 1-14 0c0-1.153.433-2.294 1-3a2.5 2.5 0 0 0 2.5 2.5z"/></svg> Gempa 6.2 SR melanda Karangasem',s:'5 Jun 2025, 03:24'},{dot:'var(--amber)',t:'Tim PMI dan BNPB tiba di lokasi',s:'5 Jun 2025, 05:10'},{dot:'var(--teal)',t:'Kiriman pertama 200 paket makanan tiba',s:'5 Jun 2025, 11:30'}]},
+  {id:2,loc:'Cianjur, Jabar',title:'Longsor Cianjur — 1.200 Jiwa Perlu Tempat Tinggal',status:'siaga',emoji:'mountain',bg:'linear-gradient(135deg,#2D4A1E,#3D6B2A)',pct:62,goal:50,collected:31,items:['Tenda darurat ×50','Selimut ×300','Makanan ×200 pkt'],donatur:28,waktu:'5 jam lalu',verif:'PMI',jiwa:1200,tags:['tempat','makanan'],desc:'Longsor di lereng Cianjur menghancurkan 120 rumah. 1.200 jiwa membutuhkan tempat tinggal sementara.',timeline:[{dot:'var(--danger)',t:'<svg style="width:13px;height:13px;display:inline-block;vertical-align:middle;flex-shrink:0;margin-right:2px" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="3 20 15.5 4 22 20"/><polygon points="1 20 9 7.5 13 14 10 20"/></svg> Longsor melanda 3 desa',s:'4 Jun 2025, 23:15'},{dot:'var(--amber)',t:'80 relawan bergabung',s:'5 Jun 2025, 07:00'}]},
+  {id:3,loc:'Lereng Merapi',title:'Erupsi Merapi — 890 Warga Butuh Masker & Evakuasi',status:'siaga',emoji:'flame',bg:'linear-gradient(135deg,#4A0E0E,#7B1A1A)',pct:78,goal:45,collected:35,items:['Masker N95 ×5000','Armada evakuasi ×3'],donatur:45,waktu:'1 hari lalu',verif:'BNPB',jiwa:890,tags:['medis'],desc:'Aktivitas Merapi meningkat signifikan. Radius 5 km dievakuasi. 890 warga membutuhkan masker dan transportasi.',timeline:[{dot:'var(--amber)',t:'Status Merapi naik ke SIAGA',s:'4 Jun 2025'},{dot:'var(--teal)',t:'Evakuasi 600 warga selesai',s:'5 Jun 2025'}]},
+  {id:4,loc:'Lombok Timur, NTB',title:'Gempa Lombok — Rekonstruksi 450 Rumah Rusak',status:'pemulihan',emoji:'home',bg:'linear-gradient(135deg,#1A4A3A,#2D6B55)',pct:88,goal:19,collected:17,items:['Material bangunan','Tim konstruksi'],donatur:19,waktu:'2 hari lalu',verif:'ACT',jiwa:450,tags:['tempat'],desc:'Tahap pemulihan pasca gempa Lombok. 88% rumah telah selesai dibangun kembali.',timeline:[{dot:'var(--teal)',t:'400 dari 450 unit selesai dibangun',s:'3 Jun 2025'}]},
+  {id:5,loc:'Demak, Jawa Tengah',title:'Banjir Rob Demak — 650 Jiwa Butuh Perahu Karet',status:'darurat',emoji:'waves',bg:'linear-gradient(135deg,#1a4a6b,#2a6a8b)',pct:22,goal:5,collected:1,items:['Perahu karet ×5','Makanan ×100','Obat ×30 box'],donatur:5,waktu:'1 jam lalu',verif:'BNPB',jiwa:650,tags:['makanan','medis'],desc:'Banjir rob ekstrem melanda pesisir Demak. 650 jiwa terjebak dan tidak bisa dievakuasi tanpa perahu karet.',timeline:[{dot:'var(--danger)',t:'Laporan banjir rob ekstrem',s:'5 Jun 2025, 07:45'},{dot:'var(--amber)',t:'Tim BNPB menuju lokasi',s:'5 Jun 2025, 08:30'}]},
+  {id:6,loc:'Flores, NTT',title:'Kekeringan Flores — 800 KK Butuh Air Bersih',status:'siaga',emoji:'desert',bg:'linear-gradient(135deg,#8B6914,#B8860B)',pct:40,goal:800,collected:320,items:['Tangki air ×20','Jeriken ×500'],donatur:22,waktu:'3 hari lalu',verif:'BNPB',jiwa:3200,tags:['makanan'],desc:'Kekeringan berkepanjangan di Flores mengancam 800 KK. Sumber air bersih mengering.',timeline:[{dot:'var(--amber)',t:'Laporan kekeringan parah',s:'3 Jun 2025'},{dot:'var(--teal)',t:'4 tangki air dikirim',s:'4 Jun 2025'}]},
 ];
 
 const BENCANA = [
-  {loc:'Karangasem, Bali',type:'🌋 Gempa',jiwa:2840,st:'darurat',pct:35,rel:22,upd:'30 mnt lalu',id:1},
-  {loc:'Cianjur, Jabar',type:'🏔️ Longsor',jiwa:1200,st:'siaga',pct:62,rel:28,upd:'5 jam lalu',id:2},
-  {loc:'Lereng Merapi',type:'🌋 Erupsi',jiwa:890,st:'siaga',pct:78,rel:45,upd:'1 hari lalu',id:3},
-  {loc:'Lombok Timur',type:'🏠 Gempa',jiwa:450,st:'pemulihan',pct:88,rel:19,upd:'2 hari lalu',id:4},
-  {loc:'Demak, Jateng',type:'🌊 Banjir Rob',jiwa:650,st:'darurat',pct:22,rel:5,upd:'1 jam lalu',id:5},
+  {loc:'Karangasem, Bali',type:'<svg style="width:13px;height:13px;display:inline-block;vertical-align:middle;flex-shrink:0;margin-right:2px" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M8.5 14.5A2.5 2.5 0 0 0 11 12c0-1.38-.5-2-1-3-1.072-2.143-.224-4.054 2-6 .5 2.5 2 4.9 4 6.5 2 1.6 3 3.5 3 5.5a7 7 0 1 1-14 0c0-1.153.433-2.294 1-3a2.5 2.5 0 0 0 2.5 2.5z"/></svg> Gempa',jiwa:2840,st:'darurat',pct:35,rel:22,upd:'30 mnt lalu',id:1},
+  {loc:'Cianjur, Jabar',type:'<svg style="width:13px;height:13px;display:inline-block;vertical-align:middle;flex-shrink:0;margin-right:2px" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="3 20 15.5 4 22 20"/><polygon points="1 20 9 7.5 13 14 10 20"/></svg> Longsor',jiwa:1200,st:'siaga',pct:62,rel:28,upd:'5 jam lalu',id:2},
+  {loc:'Lereng Merapi',type:'<svg style="width:13px;height:13px;display:inline-block;vertical-align:middle;flex-shrink:0;margin-right:2px" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M8.5 14.5A2.5 2.5 0 0 0 11 12c0-1.38-.5-2-1-3-1.072-2.143-.224-4.054 2-6 .5 2.5 2 4.9 4 6.5 2 1.6 3 3.5 3 5.5a7 7 0 1 1-14 0c0-1.153.433-2.294 1-3a2.5 2.5 0 0 0 2.5 2.5z"/></svg> Erupsi',jiwa:890,st:'siaga',pct:78,rel:45,upd:'1 hari lalu',id:3},
+  {loc:'Lombok Timur',type:'<svg style="width:13px;height:13px;display:inline-block;vertical-align:middle;flex-shrink:0;margin-right:2px" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg> Gempa',jiwa:450,st:'pemulihan',pct:88,rel:19,upd:'2 hari lalu',id:4},
+  {loc:'Demak, Jateng',type:'<svg style="width:13px;height:13px;display:inline-block;vertical-align:middle;flex-shrink:0;margin-right:2px" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 6c.6.5 1.2 1 2.5 1C7 7 7 5 9.5 5c2.6 0 2.4 2 5 2 2.5 0 2.5-2 5-2 1.3 0 1.9.5 2.5 1"/><path d="M2 12c.6.5 1.2 1 2.5 1 2.5 0 2.5-2 5-2 2.6 0 2.4 2 5 2 2.5 0 2.5-2 5-2 1.3 0 1.9.5 2.5 1"/><path d="M2 18c.6.5 1.2 1 2.5 1 2.5 0 2.5-2 5-2 2.6 0 2.4 2 5 2 2.5 0 2.5-2 5-2 1.3 0 1.9.5 2.5 1"/></svg> Banjir Rob',jiwa:650,st:'darurat',pct:22,rel:5,upd:'1 jam lalu',id:5},
 ];
 
 const ACTIVITIES = [
-  {dot:'var(--danger)',t:'🚨 Laporan baru: Banjir Rob Demak — 650 jiwa terisolir',s:'14 mnt lalu · Relawan: Budi S.'},
-  {dot:'var(--teal)',t:'📦 500 kg beras sampai ke posko Karangasem',s:'32 mnt lalu · Truck HT-01'},
-  {dot:'var(--amber)',t:'⚠️ Alert: Stok obat Cianjur tinggal 12%',s:'1 jam lalu · Sistem monitoring'},
-  {dot:'var(--teal)',t:'🤝 10 relawan baru terdaftar dari Jabodetabek',s:'2 jam lalu · Via portal'},
-  {dot:'var(--teal)',t:'📊 Laporan harian diterbitkan — 5 Juni 2025',s:'3 jam lalu · Auto-generate'},
-  {dot:'var(--danger)',t:'🌊 Banjir Aceh Utara: 1.500 jiwa terdampak',s:'6 jam lalu · Laporan lapangan'},
+  {dot:'var(--danger)',t:'Laporan baru: Banjir Rob Demak — 650 jiwa terisolir',s:'14 mnt lalu · Relawan: Budi S.'},
+  {dot:'var(--teal)',t:'500 kg beras sampai ke posko Karangasem',s:'32 mnt lalu · Truck HT-01'},
+  {dot:'var(--amber)',t:'Alert: Stok obat Cianjur tinggal 12%',s:'1 jam lalu · Sistem monitoring'},
+  {dot:'var(--teal)',t:'10 relawan baru terdaftar dari Jabodetabek',s:'2 jam lalu · Via portal'},
+  {dot:'var(--teal)',t:'Laporan harian diterbitkan — 5 Juni 2025',s:'3 jam lalu · Auto-generate'},
+  {dot:'var(--danger)',t:'Banjir Aceh Utara: 1.500 jiwa terdampak',s:'6 jam lalu · Laporan lapangan'},
 ];
 
 const NOTIFS = [
-  {cls:'unread-r',msg:'🔴 DARURAT: Stok makanan Karangasem habis dalam 6 jam!',time:'5 menit lalu'},
-  {cls:'unread-r',msg:'🌊 Laporan baru: Banjir Rob Demak — 650 jiwa butuh perahu',time:'14 menit lalu'},
-  {cls:'unread',msg:'✅ Pengiriman HT-03 dikonfirmasi tiba di Karangasem',time:'32 menit lalu'},
-  {cls:'unread',msg:'🤝 dr. Ahmad Santoso mendaftar sebagai relawan medis',time:'1 jam lalu'},
-  {cls:'unread',msg:'📊 Laporan harian siap untuk ditinjau',time:'3 jam lalu'},
-  {cls:'',msg:'🚛 Truck HT-02 berangkat menuju Cianjur',time:'4 jam lalu'},
-  {cls:'',msg:'💊 Stok Paracetamol di Gudang A hampir habis',time:'5 jam lalu'},
-  {cls:'',msg:'🟢 Status Lombok Timur naik ke PEMULIHAN',time:'1 hari lalu'},
+  {cls:'unread-r',msg:'DARURAT: Stok makanan Karangasem habis dalam 6 jam!',time:'5 menit lalu'},
+  {cls:'unread-r',msg:'Laporan baru: Banjir Rob Demak — 650 jiwa butuh perahu',time:'14 menit lalu'},
+  {cls:'unread',msg:'Pengiriman HT-03 dikonfirmasi tiba di Karangasem',time:'32 menit lalu'},
+  {cls:'unread',msg:'dr. Ahmad Santoso mendaftar sebagai relawan medis',time:'1 jam lalu'},
+  {cls:'unread',msg:'Laporan harian siap untuk ditinjau',time:'3 jam lalu'},
+  {cls:'',msg:'Truck HT-02 berangkat menuju Cianjur',time:'4 jam lalu'},
+  {cls:'',msg:'Stok Paracetamol di Gudang A hampir habis',time:'5 jam lalu'},
+  {cls:'',msg:'Status Lombok Timur naik ke PEMULIHAN',time:'1 hari lalu'},
 ];
 
 // ══════════════════════════════════
@@ -1248,7 +1281,7 @@ function renderBencanaTable() {
       </td>
       <td>${r.rel} aktif</td>
       <td style="font-size:10.5px;color:var(--text3)">${r.upd}</td>
-      <td><button class="btn btn-xs ${btnCls}" onclick="openDetail(${r.id})">${r.st==='darurat'?'🚨 Respons':'Koordinasi'}</button></td>
+      <td><button class="btn btn-xs ${btnCls}" onclick="openDetail(${r.id})">${r.st==='darurat'?'Respons':'Koordinasi'}</button></td>
     </tr>`;
   }).join('');
 }
@@ -1267,7 +1300,7 @@ function renderNeedsTable() {
       <td><div class="pbar-mini"><div class="pbar-track"><div class="pbar-fill" style="width:${n.pct}%;background:${pc}"></div></div><span style="font-size:10.5px;font-weight:700;color:${pc}">${n.pct}%</span></div></td>
       <td>${n.donatur}</td>
       <td style="font-size:10.5px;color:var(--text3)">${n.waktu}</td>
-      <td><div style="display:flex;gap:5px"><button class="btn btn-xs btn-ghost" onclick="openDetail(${n.id})">Detail</button><button class="btn btn-xs btn-primary" onclick="toast('Form pengiriman ke ${n.loc} dibuka','🚛')">Kirim</button></div></td>
+      <td><div style="display:flex;gap:5px"><button class="btn btn-xs btn-ghost" onclick="openDetail(${n.id})">Detail</button><button class="btn btn-xs btn-primary" onclick="toast('Form pengiriman ke ${n.loc} dibuka')">Kirim</button></div></td>
     </tr>`;
   }).join('');
 }
@@ -1310,13 +1343,13 @@ function renderCampaigns() {
         <div class="cc-verif">✓ ${n.verif}</div>
       </div>
       <div class="cc-body">
-        <div class="cc-loc">📍 ${n.loc}</div>
+        <div class="cc-loc">${getIcon('pin',{size:'11px'})}&nbsp;${n.loc}</div>
         <div class="cc-title">${n.title}</div>
-        <div class="cc-tags">${(n.tags||[]).map(t=>`<span class="cc-tag">${t==='makanan'?'🍱 Pangan':t==='medis'?'💊 Medis':'🏠 Shelter'}</span>`).join('')}</div>
+        <div class="cc-tags">${(n.tags||[]).map(t=>`<span class="cc-tag">${t==='makanan'?(getTagIcon('makanan')+' Pangan'):t==='medis'?(getTagIcon('medis')+' Medis'):(getTagIcon('tempat')+' Shelter')}</span>`).join('')}</div>
         <div class="cc-meta">
-          <span>👥 <strong>${n.jiwa.toLocaleString('id-ID')}</strong> jiwa</span>
-          <span>🤝 <strong>${n.donatur}</strong> donatur</span>
-          <span>🕐 ${n.waktu}</span>
+          <span>${getIcon('users',{size:'12px'})}&nbsp;<strong>${n.jiwa.toLocaleString('id-ID')}</strong> jiwa</span>
+          <span>${getIcon('handshake',{size:'12px'})}&nbsp;<strong>${n.donatur}</strong> donatur</span>
+          <span>${getIcon('clock',{size:'12px'})}&nbsp;${n.waktu}</span>
         </div>
         <div style="margin-bottom:12px">
           <div style="display:flex;justify-content:space-between;font-size:11px;color:var(--text3);margin-bottom:4px">
@@ -1325,7 +1358,7 @@ function renderCampaigns() {
           <div class="prog-bar"><div class="prog-fill ${pfClass[n.status]}" style="width:${n.pct}%"></div></div>
         </div>
         <div class="cc-footer">
-          <button class="btn btn-primary btn-sm" onclick="event.stopPropagation();toast('Form kirim bantuan ke ${n.loc} dibuka','📦')">Kirim Bantuan</button>
+          <button class="btn btn-primary btn-sm" onclick="event.stopPropagation();toast('Form kirim bantuan ke ${n.loc} dibuka')">Kirim Bantuan</button>
           <button class="btn btn-secondary btn-sm" onclick="event.stopPropagation();openDetail(${n.id})">Detail</button>
         </div>
       </div>
@@ -1361,14 +1394,14 @@ function renderHeroNeeds() {
         <span class="need-status-badge ${statusClass[n.status]}">${statusLabel[n.status]}</span>
       </div>
       <div class="need-body">
-        <div class="need-location">📍 ${n.loc}</div>
+        <div class="need-location">${getIcon('pin',{size:'11px'})}&nbsp;${n.loc}</div>
         <div class="need-title">${n.title}</div>
-        <div class="need-tags">${(n.tags||[]).map(t=>`<span class="need-tag">${t==='makanan'?'🍱 Pangan':t==='medis'?'💊 Medis':'🏠 Shelter'}</span>`).join('')}</div>
+        <div class="need-tags">${(n.tags||[]).map(t=>`<span class="need-tag">${t==='makanan'?(getTagIcon('makanan')+' Pangan'):t==='medis'?(getTagIcon('medis')+' Medis'):(getTagIcon('tempat')+' Shelter')}</span>`).join('')}</div>
         <div class="prog-row"><span>Progress</span><span style="font-weight:700;color:var(--danger)">${n.pct}%</span></div>
         <div class="prog-bar"><div class="prog-fill ${pfClass[n.status]}" style="width:${n.pct}%"></div></div>
         <div class="need-footer">
-          <div class="need-meta">👥 <strong>${n.jiwa.toLocaleString('id-ID')}</strong> jiwa · 🤝 ${n.donatur} donatur</div>
-          <button class="btn btn-primary btn-xs" onclick="event.stopPropagation();toast('Form bantuan ke ${n.loc} dibuka','📦')">Bantu</button>
+          <div class="need-meta">${getIcon('users',{size:'11px'})}&nbsp;<strong>${n.jiwa.toLocaleString('id-ID')}</strong> jiwa · ${getIcon('handshake',{size:'11px'})}&nbsp;${n.donatur} donatur</div>
+          <button class="btn btn-primary btn-xs" onclick="event.stopPropagation();toast('Form bantuan ke ${n.loc} dibuka')">Bantu</button>
         </div>
       </div>
     </div>`).join('');
@@ -1392,17 +1425,17 @@ function openDetail(id) {
     <div class="modal-body">
       <div style="display:flex;align-items:center;gap:8px;margin-bottom:16px">
         <span class="badge ${statusClass[n.status]}">${statusLabel[n.status]}</span>
-        <span style="font-size:12px;color:var(--text3)">📍 ${n.loc}</span>
+        <span style="font-size:12px;color:var(--text3);display:inline-flex;align-items:center;gap:3px"><svg style="width:11px;height:11px;flex-shrink:0" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>&nbsp;${n.loc}</span>
         <span style="font-size:12px;color:var(--text3)">✓ Verif. ${n.verif}</span>
       </div>
       <p style="font-size:13.5px;color:var(--text2);line-height:1.7;margin-bottom:20px">${n.desc}</p>
       <div class="modal-section">
         <div class="modal-section-title">Ringkasan Situasi</div>
         <div class="detail-grid">
-          <div class="detail-item"><div class="detail-item-label">Jiwa Terdampak</div><div class="detail-item-val">👥 ${n.jiwa.toLocaleString('id-ID')} jiwa</div></div>
+          <div class="detail-item"><div class="detail-item-label">Jiwa Terdampak</div><div class="detail-item-val">${getIcon('users',{size:'13px'})}&nbsp;${n.jiwa.toLocaleString('id-ID')} jiwa</div></div>
           <div class="detail-item"><div class="detail-item-label">Progress Bantuan</div><div class="detail-item-val" style="color:${n.pct<40?'var(--danger)':n.pct<70?'var(--amber)':'var(--teal)'}">${n.pct}%</div></div>
-          <div class="detail-item"><div class="detail-item-label">Donatur</div><div class="detail-item-val">🤝 ${n.donatur} orang</div></div>
-          <div class="detail-item"><div class="detail-item-label">Dilaporkan</div><div class="detail-item-val">🕐 ${n.waktu}</div></div>
+          <div class="detail-item"><div class="detail-item-label">Donatur</div><div class="detail-item-val">${getIcon('handshake',{size:'13px'})}&nbsp;${n.donatur} orang</div></div>
+          <div class="detail-item"><div class="detail-item-label">Dilaporkan</div><div class="detail-item-val">${getIcon('clock',{size:'13px'})}&nbsp;${n.waktu}</div></div>
         </div>
       </div>
       <div class="modal-section" style="margin-top:16px">
@@ -1418,12 +1451,12 @@ function openDetail(id) {
         ${(n.timeline||[]).map(t=>`<div class="timeline-item"><div class="timeline-dot" style="background:${t.dot}"></div><div><div class="timeline-text">${t.t}</div><div class="timeline-sub">${t.s}</div></div></div>`).join('')}
       </div>
       <div class="modal-actions">
-        <button class="btn btn-primary" onclick="toast('Form pengiriman bantuan ke ${n.loc} dibuka','📦');closeModal()">
+        <button class="btn btn-primary" onclick="toast('Form pengiriman bantuan ke ${n.loc} dibuka');closeModal()">
           <svg viewBox="0 0 24 24"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
           Kirim Bantuan
         </button>
-        <button class="btn btn-ghost" onclick="toast('Koordinat lokasi disalin','📋')">Salin Koordinat</button>
-        <button class="btn btn-secondary" onclick="toast('Laporan kondisi diunduh','📄')">Unduh Laporan</button>
+        <button class="btn btn-ghost" onclick="toast('Koordinat lokasi disalin')">Salin Koordinat</button>
+        <button class="btn btn-secondary" onclick="toast('Laporan kondisi diunduh')">Unduh Laporan</button>
       </div>
     </div>`;
   document.getElementById('detailModal').classList.add('show');
@@ -1476,11 +1509,11 @@ document.addEventListener('click', e => {
 // ══════════════════════════════════
 // TOAST
 // ══════════════════════════════════
-function toast(msg, icon='✅') {
+function toast(msg) {
   const wrap = document.getElementById('toastWrap');
   const d = document.createElement('div');
   d.className = 'toast-item';
-  d.innerHTML = `<span style="font-size:15px">${icon}</span><span>${msg}</span>`;
+  d.innerHTML = `<span>${msg}</span>`;
   wrap.appendChild(d);
   setTimeout(() => {
     d.style.transition = 'opacity .3s, transform .3s';
@@ -1533,10 +1566,10 @@ setInterval(() => {
 // LIVE FEED
 // ══════════════════════════════════
 const liveFeeds = [
-  {dot:'var(--teal)',t:'📦 60 selimut tiba di posko Cianjur',s:'Baru saja · Relawan: Dewi K.'},
-  {dot:'var(--danger)',t:'⚠️ Stok perahu karet Demak hampir habis',s:'Baru saja · Sistem monitoring'},
-  {dot:'var(--teal)',t:'🤝 5 relawan baru bergabung dari Surabaya',s:'Baru saja · Via portal web'},
-  {dot:'var(--amber)',t:'🚛 Truck HT-05 berangkat ke Demak',s:'Baru saja · Supir: Rudi P.'},
+  {dot:'var(--teal)',t:'60 selimut tiba di posko Cianjur',s:'Baru saja · Relawan: Dewi K.'},
+  {dot:'var(--danger)',t:'Stok perahu karet Demak hampir habis',s:'Baru saja · Sistem monitoring'},
+  {dot:'var(--teal)',t:'5 relawan baru bergabung dari Surabaya',s:'Baru saja · Via portal web'},
+  {dot:'var(--amber)',t:'Truck HT-05 berangkat ke Demak',s:'Baru saja · Supir: Rudi P.'},
 ];
 let feedIdx = 0;
 setInterval(() => {
@@ -1552,7 +1585,7 @@ setInterval(() => {
 renderHeroNeeds();
 renderNotifs();
 updateNotifBadge();
-setTimeout(() => toast('🔴 3 lokasi darurat membutuhkan bantuan segera!','🚨'), 1500);
+setTimeout(() => toast('3 lokasi darurat membutuhkan bantuan segera!'), 1500);
 </script>
 </body>
 </html>
